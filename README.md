@@ -39,7 +39,7 @@ TODO
 
 ## Issues
    
-Bug reports and feature requests can be submitted on the [Github Issue Tracker](https://github.com/Triun/diff/issues).
+Bug reports and feature requests can be submitted on the [Github Issue Tracker](https://github.com/Triun/laravel-model-validable/issues).
 
 ## Contributing
 
@@ -53,12 +53,12 @@ The Laravel Model Base is open-sourced software licensed under the [MIT license]
 [ico-version]: https://img.shields.io/packagist/v/triun/laravel-model-validable.svg
 [ico-pre-release]: https://img.shields.io/packagist/vpre/triun/laravel-model-validable.svg
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://travis-ci.org/Triun/diff.svg?branch=master
+[ico-travis]: https://travis-ci.org/Triun/laravel-model-validable.svg?branch=master
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/triun/laravel-model-validable.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/triun/laravel-model-validable.svg?style=flat-square
 [ico-unstable]: https://poser.pugx.org/triun/laravel-model-validable/v/unstable
 
 [link-packagist]: https://packagist.org/packages/triun/laravel-model-validable
-[link-travis]: https://travis-ci.org/Triun/diff
+[link-travis]: https://travis-ci.org/Triun/laravel-model-validable
 [link-downloads]: https://packagist.org/packages/triun/laravel-model-validable
 [link-author]: https://github.com/triun
