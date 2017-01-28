@@ -20,7 +20,7 @@ class ModelValidator
      * @param array|null                          $rules
      *
      * @return bool
-     * @throws \Illuminate\Foundation\Validation\ValidationException|\Illuminate\Contracts\Validation\ValidationException|\Exception
+     * @throws \Illuminate\Foundation\Validation\ValidationException|ValidationExceptionContract|\Exception
      */
     public function validate(Model $model, Request $request = null, $keys = null, $rules = null)
     {
