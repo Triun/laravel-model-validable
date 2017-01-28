@@ -27,10 +27,23 @@ composer require triun/laravel-model-validable:dev-master
 
 ### Development only installation
 
+DO NOT install in development mode in composer if you are using the contract interface or the trait
+
 To install this package on only development systems, add the `--dev` flag to your composer command:
 
 ```bash
 composer require --dev triun/laravel-model-validable:dev-master
+```
+
+## Skeleton Modifiers
+
+If you want to add the skeleton modifiers to the model base generator, you can do so adding the modifiers in the `config/model-base.php` file:
+
+```php
+    'modifiers' => [
+        \Triun\ModelValidable\Modifiers\ModelValidableModifier::class,
+        \Triun\ModelValidable\Modifiers\RulesModifier::class,
+    ],
 ```
 
 ## Usage
