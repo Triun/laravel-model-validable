@@ -7,7 +7,7 @@
     "issues": "https://github.com/Triun/laravel-model-validable/issues",
     "source": "https://github.com/Triun/laravel-model-validable"
   },
-  "keywords": ["laravel", "model", "eloquent", "base", "make", "generator"],
+  "keywords": ["laravel", "model", "eloquent", "base", "make", "generator", "validation", "validator", "rules"],
   "authors": [
     {
       "name": "Gonzalo Moreno"
