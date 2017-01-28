@@ -1,0 +1,11 @@
+# composer vendor directory
+vendor/
+
+#build
+build/
+
+# composer
+composer.lock
+
+# phpStorm
+.idea

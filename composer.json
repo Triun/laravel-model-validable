@@ -1,0 +1,44 @@
+{
+  "name": "triun/laravel-model-validable",
+  "description": "Gives the models the ability to be validated before saved.",
+  "license": "MIT",
+  "homepage": "https://github.com/Triun",
+  "support": {
+    "issues": "https://github.com/Triun/laravel-model-validable/issues",
+    "source": "https://github.com/Triun/laravel-model-validable"
+  },
+  "keywords": ["laravel", "model", "eloquent", "base", "make", "generator"],
+  "authors": [
+    {
+      "name": "Gonzalo Moreno"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "laravel/framework": "^5.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "squizlabs/php_codesniffer": "^2.1",
+    "triun/laravel-model-base": "dev-master",
+    "doctrine/dbal": "^2.5"
+  },
+  "suggest": {
+    "triun/laravel-model-base": "In order to use the RulesModifier and the ValidatorModifier"
+  },
+  "autoload": {
+    "psr-4": {
+      "Triun\\ModelValidable\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": ["tests/TestCase.php"]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
