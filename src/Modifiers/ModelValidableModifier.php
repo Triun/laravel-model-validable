@@ -1,6 +1,6 @@
 <?php
 
-namespace Triun\ModelValidable\Modifier;
+namespace Triun\ModelValidable\Modifiers;
 
 use Triun\ModelBase\Lib\ModifierBase;
 use Triun\ModelBase\Definitions\Skeleton;

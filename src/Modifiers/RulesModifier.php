@@ -1,6 +1,6 @@
 <?php
 
-namespace Triun\ModelValidable\Modifier;
+namespace Triun\ModelValidable\Modifiers;
 
 use ReflectionProperty;
 use Doctrine\DBAL\Types\Type;
