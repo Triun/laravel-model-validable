@@ -1,4 +1,4 @@
-# Diff
+# Laravel Model Validable
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Pre Release Version on Packagist][ico-pre-release]][link-packagist]
@@ -7,14 +7,15 @@
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Software License][ico-license]](LICENSE.md)
 
-Computing diffs and formatting the output.
+Gives the models the ability to be validated before saved.
 
 ## About
 
-Return or saw the difference between two text files or strings.
+Gives the models the ability to auto-validate them selves.
 
-Based on the Stephen Morley's class.Diff.php:
-http://code.stephenmorley.org/php/diff-implementation/
+This module is not for business logic, but to protect the data in the database.
+
+In use with the triun\laravel-model-base generator, the skeleton modifier of this package will generate the rules automatically, based on the table scheme.
 
 ## Installation
 
