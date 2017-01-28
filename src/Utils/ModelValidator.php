@@ -38,7 +38,6 @@ class ModelValidator
         }
 
         if ($rules === null) {
-
             if (!method_exists($model, 'rules')) {
                 throw new \Exception('No rules specified for '.get_class($model));
             }
